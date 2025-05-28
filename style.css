@@ -1,0 +1,56 @@
+    body, html {
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(image2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh; /* Ensure minimum height */
+}
+
+ .card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  padding: 15px; /* padding 20 se kam karke 15 kiya */
+  box-shadow: 10px 50px 40px rgba(0, 0, 0, 0.2);
+  background-color: rgba(41, 41, 41, 0.6);
+  color: white;
+}
+
+/* Form elements ke vertical margin kam karo */
+.mb-3 {
+  margin-bottom: 10px !important; /* default se kam */
+}
+
+/* Heading aur buttons ke margin thoda adjust karo */
+h4 {
+  margin-bottom: 15px;
+}
+
+.d-grid {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  box-shadow: 0 4px 15px rgba(101, 41, 255, 0.4);
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+  border-radius: 50px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(101, 41, 255, 0.6);
+}
+
